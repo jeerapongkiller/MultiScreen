@@ -12,6 +12,7 @@
 		996B3D551F2AD80C00A670ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996B3D531F2AD80C00A670ED /* Main.storyboard */; };
 		996B3D571F2AD80C00A670ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996B3D561F2AD80C00A670ED /* Assets.xcassets */; };
 		996B3D5A1F2AD80C00A670ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996B3D581F2AD80C00A670ED /* LaunchScreen.storyboard */; };
+		996B3D621F2AD9A600A670ED /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B3D611F2AD9A600A670ED /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		996B3D561F2AD80C00A670ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		996B3D591F2AD80C00A670ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		996B3D5B1F2AD80C00A670ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		996B3D611F2AD9A600A670ED /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				996B3D4F1F2AD80C00A670ED /* AppDelegate.swift */,
 				996B3D511F2AD80C00A670ED /* ViewController.swift */,
 				996B3D531F2AD80C00A670ED /* Main.storyboard */,
+				996B3D611F2AD9A600A670ED /* secondViewController.swift */,
 				996B3D561F2AD80C00A670ED /* Assets.xcassets */,
 				996B3D581F2AD80C00A670ED /* LaunchScreen.storyboard */,
 				996B3D5B1F2AD80C00A670ED /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				996B3D521F2AD80C00A670ED /* ViewController.swift in Sources */,
+				996B3D621F2AD9A600A670ED /* secondViewController.swift in Sources */,
 				996B3D501F2AD80C00A670ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
