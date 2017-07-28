@@ -27,9 +27,22 @@
                                 <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qg0-e6-375">
+                                <rect key="frame" x="92.5" y="209" width="189" height="36"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="      Go to Second       ">
+                                    <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yvW-pY-oy7" kind="show" id="NGs-Fp-xv7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Qg0-e6-375" firstAttribute="top" secondItem="XKV-kn-7W0" secondAttribute="bottom" constant="63" id="CWW-nw-whl"/>
+                            <constraint firstItem="Qg0-e6-375" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CpV-7x-PkX"/>
                             <constraint firstItem="XKV-kn-7W0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="78" id="TPz-me-oh4"/>
                             <constraint firstItem="XKV-kn-7W0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wmr-Kj-MgL"/>
                         </constraints>
@@ -56,11 +69,24 @@
                                 <color key="textColor" red="0.14901960780000001" green="0.054901960780000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.30588235289999999" green="0.20392156859999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSI-G1-p8S">
+                                <rect key="frame" x="100.5" y="205" width="173" height="36"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="      Back to First      ">
+                                    <color key="titleColor" red="0.14901960780000001" green="0.054901960780000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="SYp-mi-fB6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.4823529412" green="0.36862745099999999" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="N06-W2-JYO" firstAttribute="centerX" secondItem="uJl-6G-vy6" secondAttribute="centerX" id="L2R-qx-3Wt"/>
                             <constraint firstItem="N06-W2-JYO" firstAttribute="top" secondItem="awj-u8-2N7" secondAttribute="bottom" constant="81" id="L4c-4e-uFo"/>
+                            <constraint firstItem="ZSI-G1-p8S" firstAttribute="centerX" secondItem="uJl-6G-vy6" secondAttribute="centerX" id="n0i-vd-Yc8"/>
+                            <constraint firstItem="ZSI-G1-p8S" firstAttribute="top" secondItem="N06-W2-JYO" secondAttribute="bottom" constant="56" id="oBX-fW-pYM"/>
                         </constraints>
                     </view>
                 </viewController>
